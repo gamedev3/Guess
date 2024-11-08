@@ -1,1 +1,50 @@
+let fName = prompt("Enter your First Name: ");
+let lName= prompt("Enter your Last Name: ");
 
+let Abx= parseFloat(prompt("Enter number between 1 to 8: "))
+
+let fullName= fName+" "+lName;
+
+console.log("Hey👋" +fullName);
+if (isNaN(Abx)) {
+        console.log("seriously, Enter a number(1,2,3,4) not Text(Abc) 😒😁")
+        return ;} else {
+
+switch (Abx) { 
+    case 1:
+        console.log("জীবন একটি সুন্দর উপহার, প্রতিটি মুহূর্তকে উপভোগ করো।(Life is a beautiful gift; cherish every moment.)")
+break;
+case 2:
+    console.log("জীবন একটি সুন্দর উপহার, প্রতিটি মুহূর্তকে উপভোগ করো।(Happiness is not easy to find in life, but if you stay optimistic, thats real happiness.)")
+    break;
+    case 3:
+        console.log("জীবনের পথ কখনোই মসৃণ হয় না, কিন্তু প্রতিটি বাধা আমাদের আরও শক্তিশালী করে তোলে।(Life is path is never smooth, but every obstacle makes us stronger.)");
+        break;
+        case 4:
+            console.log("কখনো নিজের জীবনের গল্পকে অন্যের সাথে তুলনা করো না, কারণ প্রতিটি গল্পই আলাদা এবং বিশেষ(Never compare your life story to someone else          , because each story is unique and special.)")
+            break;
+            case 5:
+                console.log("জীবন শুধুমাত্র পাওয়া বা হারানো নয়, এটা শেখা এবং বেড়ে ওঠা|(Life is not just about gaining or losing; its about learning and growing.)")
+                break;
+                case 6:
+                    console.log("জীবনে যারা স্বপ্ন দেখে, তারাই বাস্তবে তাদের স্বপ্নকে ছুঁয়ে যায।(Those who dream in life are the ones who actually touch their dreams.)");
+break;
+case 7:
+    console.log("জীবনটা খুব ছোট, রাগ পুষে রাখার জন্য নয়, বরং ভালোবাসা ও ক্ষমার জন্য।(Life is too short to hold onto anger; its meant forget love and forgiveness.)");
+          break;
+          case 8:
+              console.log("জীবন একটি আয়না, তুমি যেমনটা ভাববে, তেমনটাই ফিরে আসবে।(Life is a mirror; it reflects whatever you think.)"
+);
+         
+    default:
+    console.log("Well-done! you are going to Hell🙂");
+           
+        
+    }
+    
+    
+    
+    
+    
+    
+}
